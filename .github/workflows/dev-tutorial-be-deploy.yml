@@ -10,7 +10,7 @@ on:
         default: "develop"
 
 env:
-  REPOSITORY: "<username>/<username>-tutorial-backend"
+  REPOSITORY: "weerawis/user20--tutorial-backend"
   GITREF: ${{ github.event_name == 'repository_dispatch' && 'develop' || github.event.inputs.ref }}
   ARTIFACT_NAME: "artifact-tutorial-be-0.0.1-snapshot"
   APP_RESOURCE_NAME: app-user20-az-usw3-dev-001
