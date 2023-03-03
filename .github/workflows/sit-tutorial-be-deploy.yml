@@ -12,7 +12,7 @@ env:
   REPOSITORY: "weerawis/user20--tutorial-backend"
   GITREF: ${{ github.event.inputs.ref }}
   ARTIFACT_NAME: "artifact-tutorial-backend"
-  APP_RESOURCE_NAME: app-user20-az-usw3-sit-001
+  APP_RESOURCE_NAME: app-user20-az-usw3-uat-001
 
 jobs:
   deploy-app-service:
